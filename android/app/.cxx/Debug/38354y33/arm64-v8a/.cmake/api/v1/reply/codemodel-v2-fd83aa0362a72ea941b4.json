@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ggml",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ggml-Debug-6c949fe0114ebb931b47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml"
+				},
+				{
+					"build" : "ggml/src",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ggml.src-Debug-5c7d3225da316f4e4807.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "ggml/src/ggml-cpu",
+					"jsonFile" : "directory-ggml.src.ggml-cpu-Debug-38aeaff4cdb315a9070b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src/ggml-cpu"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lecturecap_native",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "ggml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ggml::@64c2a4576bf370762041",
+					"jsonFile" : "target-ggml-Debug-d4e822af7f1be2548e1c.json",
+					"name" : "ggml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ggml-base::@64c2a4576bf370762041",
+					"jsonFile" : "target-ggml-base-Debug-50fb8a6d39c4adfadd3f.json",
+					"name" : "ggml-base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ggml-cpu::@64c2a4576bf370762041",
+					"jsonFile" : "target-ggml-cpu-Debug-688be01d429ea739299b.json",
+					"name" : "ggml-cpu",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lecturecap_native::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lecturecap_native-Debug-11fad7e3948e56da6ebf.json",
+					"name" : "lecturecap_native",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/.cxx/Debug/38354y33/arm64-v8a",
+		"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

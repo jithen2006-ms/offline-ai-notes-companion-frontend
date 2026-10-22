@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 345,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 346,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 414,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/build/intermediates/cxx/Debug/38354y33/obj/arm64-v8a/libggml.so"
+			],
+			"targetId" : "ggml::@64c2a4576bf370762041",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-cpu.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-alloc.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-backend.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-blas.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-cann.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-cpp.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-cuda.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-opt.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-metal.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-rpc.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-virtgpu.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-sycl.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-vulkan.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-webgpu.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-zendnn.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/ggml-openvino.h",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/include/gguf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/build/intermediates/cxx/Debug/38354y33/obj/arm64-v8a/libggml-base.so"
+			],
+			"targetId" : "ggml-base::@64c2a4576bf370762041",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ggml",
+			"paths" : 
+			[
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/.cxx/Debug/38354y33/arm64-v8a/ggml/ggml-config.cmake",
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/.cxx/Debug/38354y33/arm64-v8a/ggml/ggml-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ggml",
+		"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml"
+	}
+}

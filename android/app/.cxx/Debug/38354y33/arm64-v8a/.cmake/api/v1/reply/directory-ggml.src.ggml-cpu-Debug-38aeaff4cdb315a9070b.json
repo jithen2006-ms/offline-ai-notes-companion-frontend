@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ggml/src/ggml-cpu",
+		"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src/ggml-cpu"
+	}
+}

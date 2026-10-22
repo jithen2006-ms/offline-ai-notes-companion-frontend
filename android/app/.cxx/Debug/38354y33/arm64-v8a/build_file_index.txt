@@ -1,0 +1,4 @@
+C:\Users\ashok\OneDrive\Desktop\offline-ai-notes-companion\android\app\src\main\cpp\CMakeLists.txt
+C:\Users\ashok\OneDrive\Desktop\offline-ai-notes-companion\android\third_party\whisper.cpp\ggml\CMakeLists.txt
+C:\Users\ashok\OneDrive\Desktop\offline-ai-notes-companion\android\third_party\whisper.cpp\ggml\src\CMakeLists.txt
+C:\Users\ashok\OneDrive\Desktop\offline-ai-notes-companion\android\third_party\whisper.cpp\ggml\src\ggml-cpu\CMakeLists.txt

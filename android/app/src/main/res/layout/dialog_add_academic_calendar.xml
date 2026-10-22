@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Academic Calendar Event"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Description -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:hint="Event Description (e.g. Independence Day)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAcadDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Date input -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Date (YYYY-MM-DD)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAcadDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2026-08-21" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Event Type Selector -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Day Type"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAcadType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_status_badge" />
+
+    <!-- Substitute Day (for special working days) -->
+    <TextView
+        android:id="@+id/tvLabelEffectiveDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Follow Timetable of:"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/spinnerEffectiveDay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_status_badge"
+        android:entries="@array/days_of_week" />
+
+</LinearLayout>

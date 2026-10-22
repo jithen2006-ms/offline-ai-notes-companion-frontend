@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\third_party\\whisper.cpp\\ggml\\CMakeLists.txt",
+    "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\third_party\\whisper.cpp\\ggml\\src\\CMakeLists.txt",
+    "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\third_party\\whisper.cpp\\ggml\\src\\ggml-cpu\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\ashok\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\.cxx\\Debug\\38354y33\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\ashok\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\.cxx\\Debug\\38354y33\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@64c2a4576bf370762041": {
+      "artifactName": "ggml",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml.so",
+      "runtimeFiles": [
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-cpu.so",
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-base.so"
+      ]
+    },
+    "lecturecap_native::@6890427a1f51a3e7e1df": {
+      "artifactName": "lecturecap_native",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\liblecturecap_native.so",
+      "runtimeFiles": [
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml.so",
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-cpu.so",
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-base.so"
+      ]
+    },
+    "ggml-cpu::@64c2a4576bf370762041": {
+      "artifactName": "ggml-cpu",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-cpu.so",
+      "runtimeFiles": [
+        "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-base.so",
+        "C:\\Users\\ashok\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\14.0.6\\lib\\linux\\aarch64\\libomp.so"
+      ]
+    },
+    "ggml-base::@64c2a4576bf370762041": {
+      "artifactName": "ggml-base",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\ashok\\OneDrive\\Desktop\\offline-ai-notes-companion\\android\\app\\build\\intermediates\\cxx\\Debug\\38354y33\\obj\\arm64-v8a\\libggml-base.so",
+      "runtimeFiles": [
+        "C:\\Users\\ashok\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\14.0.6\\lib\\linux\\aarch64\\libomp.so"
+      ]
+    }
+  }
+}

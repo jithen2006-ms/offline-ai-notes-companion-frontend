@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ggml_add_backend_library",
+			"ggml_add_cpu_backend_variant_impl"
+		],
+		"files" : 
+		[
+			"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src/CMakeLists.txt",
+			"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 584,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/app/build/intermediates/cxx/Debug/38354y33/obj/arm64-v8a/libggml-cpu.so"
+			],
+			"targetId" : "ggml-cpu::@64c2a4576bf370762041",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ggml/src",
+		"source" : "C:/Users/ashok/OneDrive/Desktop/offline-ai-notes-companion/android/third_party/whisper.cpp/ggml/src"
+	}
+}
